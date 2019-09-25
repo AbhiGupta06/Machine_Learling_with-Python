@@ -1,0 +1,63 @@
+1.   What is machine learning?
+Ans. Machine learning is a method of data analysis that automates analytical model building. It is a branch of artificial 
+     intelligence based on the idea that systems can learn from data, identify patterns and make decisions with minimal 
+     human intervention.
+
+
+2.   What are the different types of Machine Learning?
+Ans. There are mainely three types of Machine Learning:-
+1.Supervised Learning
+In supervised learning, we are given a data set and already know what our correct output should look like, having the idea that there is a relationship between 
+the input and the output. Supervised learning problems are further categorized into regression and classification problems.
+
+
+2.Unsupervised Learning 
+In unsupervised learning allows us to approach problems with little or no idea what our results should look like. We can derive structure from data where 
+we don’t necessarily know the effect of the variables.
+
+
+3.Reinforcement Learning
+Reinforcement Learning is, when exposed to an environment, how the machine train itself using trial and error. Machine mainly learns from past experiences 
+and tries to perform best possible solution to a certain problem.
+
+
+3.   Explain Classification and Regression.
+Ans. Regression
+In regression problem, we are trying to predict results within a continuous output, meaning that we are trying to map input variables to some continuous function.
+To exemplify, given data about the size of houses on the real estate market, try to predict their price. Another example would be, given a picture of a person, we have to 
+predict their age or gender.
+
+Classification
+Classification, on the other hand, is finding the category of the input variable, or in more academic terms, mapping input variables into discrete categories. Ideal sentence to 
+find a classification problem would be, whether this or that, like, yes or no, 0 or 1, true or false. For example,given a patient with tumour, we have to predict whether the 
+tumour is malignant or benign
+
+
+4.    What do you understand by Precision and Recall?
+Ans.  In pattern recognition, information retrieval and binary classification, precision (also called positive predictive value) is the fraction of relevant instances among the retrieved
+      instances, while recall (also known as sensitivity) is the fraction of relevant instances that have been retrieved over the total amount of relevant instances.
+      Both precision and recall are therefore based on an understanding and measure of relevance.
+
+Precision = (True Positive) / (True Positive + False Positive) 
+
+Recall = (True Negative) / (True Negative + False Positive)
+
+
+5.    Explain false negative, false positive, true negative and true positive with a simple example.
+Ans.  A true positive is an outcome where the model correctly predicts the positive class. Similarly, a true negative is an outcome where the model correctly predicts the negative class.
+      A false positive is an outcome where the model incorrectly predicts the positive class. And a false negative is an outcome where the model incorrectly predicts the negative class.
+
+For Example:
+Lets take an example of a Football Match. In it we will predict for it win and loss so the Matrix will be as shown below:
+
+
+Actual win Actual loss
+Prediction for win - 85   5
+Prediction for loss- 7   3
+
+
+So, true positive will be 85
+   true negative will be 5
+   false positive will be 7
+   false positive will be 3
+

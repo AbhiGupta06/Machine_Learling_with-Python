@@ -1,0 +1,11 @@
+Assignment1
+
+1. What is machine learning?
+
+2. what are the different types of Machine Learning?
+
+3. Explain Classification and Regression.
+
+4. What do you understand by Precision and Recall?
+
+5. Explain false negative, false positive, true negative and true positive with a simple example.
